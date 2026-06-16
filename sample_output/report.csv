@@ -1,0 +1,5 @@
+filename,sample_rate,channels,peak_db,clipping,status,failures
+good.wav,48000,1,-6.02,False,PASS,
+clipped.wav,48000,1,-0.0,True,FAIL,"peak_level, clipping"
+wrong_sample_rate.wav,44100,1,-6.02,False,FAIL,sample_rate
+stereo.wav,48000,2,-6.02,False,FAIL,channels
