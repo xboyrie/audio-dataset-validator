@@ -1,4 +1,4 @@
-# audio-dataset-validator
+# Audio Dataset Validator
 
 Automated quality assurance tool for validating speech and voice recordings against technical audio specifications.
 
